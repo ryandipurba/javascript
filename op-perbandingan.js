@@ -9,3 +9,12 @@ console.log(x == z); // sama dengan "tidak peduli type data nya apa"
 console.log(x === z); // sama dengan "type data harus sama"
 console.log(x != z); // tidak sama dengan 
 console.log(x !== z); // tidak sama dengan "type data harus sama"
+
+
+// operartor logika
+console.log("operator logika");
+
+var a = 10;
+console.log(x > 5 && x < 20); //and
+console.log(x > 15 || x < 10); //or
+console.log(!true) //negasi
