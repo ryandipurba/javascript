@@ -1,11 +1,12 @@
 function panggilOperator() {
-    var a = 4;
-    var b = 3;
+    var a = 20;
+    var b = 10;
 
-    console.log("4 + 3 = " + (a + b));
-    console.log("4 - 3 = " + (a - b));
-    console.log("4 * 3 = " + (a * b));
-    console.log("4 / 3 = " + (a / b));
+    console.log("20 + 10 = " + (a + b)); //penjumlahan
+    console.log("20 - 10 = " + (a - b)); //pengurangan
+    console.log("20 * 10 = " + (a * b)); //perkalian
+    console.log("20 / 10 = " + (a / b)); //pembagian
+    console.log("20 % 10 = " + (a % b)); //modulo
 }
 
 panggilOperator();
